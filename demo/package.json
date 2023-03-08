@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config",
+    "watch": "rollup --config --watch",
+    "lint": "eslint *.js src/**/*"
+  },
+  "devDependencies": {
+    "eslint": "8.35.0",
+    "rollup": "3.18.0",
+    "rollup-plugin-auto-reload": ".."
+  }
+}

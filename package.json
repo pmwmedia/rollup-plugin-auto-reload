@@ -1,0 +1,66 @@
+{
+  "name": "rollup-plugin-auto-reload",
+  "version": "1.0.0",
+  "description": "Rollup plugin to automatically reload pages and bundles when changes are made",
+  "keywords": [
+    "livereload",
+    "reload",
+    "plugin",
+    "rollup",
+    "rollup-plugin",
+    "watch"
+  ],
+  "author": "Martin Winandy <martin.winandy@pmwmedia.de>",
+  "license": "MIT",
+  "homepage": "https://github.com/pmwmedia/rollup-plugin-auto-reload",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmwmedia/rollup-plugin-auto-reload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmwmedia/rollup-plugin-auto-reload/issues"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "main": "dist/index.js",
+  "module": "dist/module.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/client.js",
+    "dist/index.d.ts",
+    "dist/index.js",
+    "dist/index.js.map",
+    "dist/module.mjs",
+    "dist/module.mjs.map",
+    "license.md",
+    "readme.md"
+  ],
+  "scripts": {
+    "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "lint": "eslint *.ts src/**/*"
+  },
+  "dependencies": {
+    "magic-string": "^0.30.0",
+    "ws": "^8.12.1"
+  },
+  "peerDependencies": {
+    "rollup": "^3.18.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "7.21.0",
+    "@rollup/plugin-babel": "6.0.3",
+    "@rollup/plugin-typescript": "11.0.0",
+    "@types/node": "18.14.6",
+    "@types/ws": "8.5.4",
+    "@typescript-eslint/eslint-plugin": "5.54.1",
+    "@typescript-eslint/parser": "5.54.1",
+    "babel-preset-solid": "1.6.10",
+    "eslint": "8.35.0",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "rollup": "3.18.0",
+    "rollup-plugin-dts": "5.2.0",
+    "tslib": "2.5.0",
+    "typescript": "4.9.5"
+  }
+}
