@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "eslint": "8.46.0",
-    "rollup": "3.27.0",
+    "rollup": "3.27.1",
     "rollup-plugin-auto-reload": ".."
   }
 }
