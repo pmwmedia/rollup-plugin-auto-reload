@@ -45,7 +45,7 @@
     "ws": "^8.12.1"
   },
   "peerDependencies": {
-    "rollup": "^3.18.0"
+    "rollup": "^3.18.0 || ^4.0.0"
   },
   "devDependencies": {
     "@babel/preset-typescript": "7.23.3",
@@ -57,7 +57,7 @@
     "@typescript-eslint/parser": "6.11.0",
     "eslint": "8.54.0",
     "eslint-plugin-simple-import-sort": "10.0.0",
-    "rollup": "3.29.4",
+    "rollup": "4.5.0",
     "rollup-plugin-dts": "6.1.0",
     "tslib": "2.6.2",
     "typescript": "5.2.2"
