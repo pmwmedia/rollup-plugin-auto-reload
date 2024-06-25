@@ -51,7 +51,7 @@
     "@babel/preset-typescript": "7.24.7",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-typescript": "11.1.6",
-    "@types/node": "20.14.8",
+    "@types/node": "20.14.9",
     "@types/ws": "8.5.10",
     "@typescript-eslint/eslint-plugin": "7.14.1",
     "@typescript-eslint/parser": "7.14.1",
