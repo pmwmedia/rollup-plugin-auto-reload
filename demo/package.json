@@ -6,7 +6,7 @@
     "lint": "eslint *.js src/**/*"
   },
   "devDependencies": {
-    "eslint": "8.57.1",
+    "eslint": "9.21.0",
     "rollup": "4.34.8",
     "rollup-plugin-auto-reload": ".."
   }
