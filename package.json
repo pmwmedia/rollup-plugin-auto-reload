@@ -55,7 +55,7 @@
     "@types/ws": "8.5.14",
     "@typescript-eslint/eslint-plugin": "8.25.0",
     "@typescript-eslint/parser": "8.25.0",
-    "eslint": "8.57.1",
+    "eslint": "9.21.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "rollup": "4.34.9",
     "rollup-plugin-dts": "6.1.1",
