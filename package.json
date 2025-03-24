@@ -48,7 +48,7 @@
     "rollup": "^3.18.0 || ^4.0.0"
   },
   "devDependencies": {
-    "@babel/preset-typescript": "7.26.0",
+    "@babel/preset-typescript": "7.27.0",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-typescript": "12.1.2",
     "@types/node": "22.13.13",
