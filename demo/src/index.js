@@ -1,1 +1,1 @@
-document.getElementById("message").textContent = "CHANGE ME"
+document.getElementById('message').textContent = 'CHANGE ME'

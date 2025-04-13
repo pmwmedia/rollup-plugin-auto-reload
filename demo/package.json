@@ -3,10 +3,11 @@
   "scripts": {
     "build": "rollup --config",
     "watch": "rollup --config --watch",
-    "lint": "eslint *.js src/**/*"
+    "lint": "eslint *.js *.mjs src/**/*",
+    "fix": "eslint *.js *.mjs src/**/* --fix"
   },
   "devDependencies": {
-    "eslint": "8.57.1",
+    "eslint": "9.24.0",
     "rollup": "4.40.0",
     "rollup-plugin-auto-reload": ".."
   }
