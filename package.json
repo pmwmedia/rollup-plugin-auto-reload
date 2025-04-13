@@ -21,7 +21,7 @@
     "url": "https://github.com/pmwmedia/rollup-plugin-auto-reload/issues"
   },
   "engines": {
-    "node": ">= 16"
+    "node": ">= 18"
   },
   "main": "dist/index.js",
   "module": "dist/module.mjs",
