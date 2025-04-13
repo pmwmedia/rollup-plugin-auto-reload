@@ -38,7 +38,8 @@
   ],
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
-    "lint": "eslint *.mjs *.ts src/**/*"
+    "lint": "eslint *.mjs *.ts src/**/*",
+    "fix": "eslint *.mjs *.ts src/**/* --fix"
   },
   "dependencies": {
     "magic-string": "^0.30.0",
