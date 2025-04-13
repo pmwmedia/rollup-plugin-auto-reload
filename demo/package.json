@@ -3,7 +3,7 @@
   "scripts": {
     "build": "rollup --config",
     "watch": "rollup --config --watch",
-    "lint": "eslint *.js src/**/*"
+    "lint": "eslint *.js *.mjs src/**/*"
   },
   "devDependencies": {
     "eslint": "9.24.0",
