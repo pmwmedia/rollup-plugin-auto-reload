@@ -54,7 +54,7 @@
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-typescript": "12.1.2",
     "@stylistic/eslint-plugin": "4.2.0",
-    "@types/node": "22.15.15",
+    "@types/node": "22.15.16",
     "@types/ws": "8.18.1",
     "eslint": "9.26.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
