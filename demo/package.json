@@ -7,7 +7,7 @@
     "fix": "eslint *.js *.mjs src/**/* --fix"
   },
   "devDependencies": {
-    "eslint": "9.30.1",
+    "eslint": "9.31.0",
     "rollup": "4.44.2",
     "rollup-plugin-auto-reload": ".."
   }
