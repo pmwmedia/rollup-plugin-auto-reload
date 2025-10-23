@@ -52,7 +52,7 @@
     "@babel/preset-typescript": "7.27.1",
     "@eslint/js": "9.38.0",
     "@rollup/plugin-babel": "6.1.0",
-    "@rollup/plugin-typescript": "12.2.0",
+    "@rollup/plugin-typescript": "12.3.0",
     "@stylistic/eslint-plugin": "4.4.1",
     "@types/node": "22.18.12",
     "@types/ws": "8.18.1",
