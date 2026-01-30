@@ -58,7 +58,7 @@
     "@types/ws": "8.18.1",
     "eslint": "9.39.2",
     "eslint-plugin-simple-import-sort": "12.1.1",
-    "rollup": "4.57.0",
+    "rollup": "4.57.1",
     "rollup-plugin-dts": "6.3.0",
     "tslib": "2.8.1",
     "typescript": "5.9.3",
