@@ -4,7 +4,7 @@ import globals from 'globals'
 
 export default [
   eslint.configs.recommended,
-  stylistic.configs['recommended-flat'],
+  stylistic.configs['recommended'],
   {
     languageOptions: {
       globals: {
