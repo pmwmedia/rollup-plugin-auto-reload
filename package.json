@@ -10,7 +10,7 @@
     "rollup-plugin",
     "watch"
   ],
-  "author": "Martin Winandy <martin.winandy@pmwmedia.de>",
+  "author": "Martin Winandy <martin.winandy@tinylog.org>",
   "license": "MIT",
   "homepage": "https://github.com/pmwmedia/rollup-plugin-auto-reload",
   "repository": {
