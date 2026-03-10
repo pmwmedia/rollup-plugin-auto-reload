@@ -18,10 +18,10 @@ yarn add --dev rollup-plugin-auto-reload
 
 ## Options
 
-| Option    | Values                            | Default     |
-|-----------|-----------------------------------|-------------|
-| `host`    | host name or IP address as string | `localhost` |
-| `port`    | any number between 0 - 65,535     | `0`         |
+| Option    | Values                            | Default        |
+|-----------|-----------------------------------|----------------|
+| `host`    | host name or IP address as string | `localhost`    |
+| `port`    | any number between 0 - 65,535     | `0` (= random) |
 
 ### Host
 
