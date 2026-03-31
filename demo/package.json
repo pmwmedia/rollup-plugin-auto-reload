@@ -9,7 +9,7 @@
   "devDependencies": {
     "eslint": "10.1.0",
     "globals": "17.4.0",
-    "rollup": "4.60.0",
+    "rollup": "4.60.1",
     "rollup-plugin-auto-reload": ".."
   }
 }
