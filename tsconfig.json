@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "moduleResolution": "node16",
+    "module": "esnext",
     "lib": [
       "dom",
       "es2021"
