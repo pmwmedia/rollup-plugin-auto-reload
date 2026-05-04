@@ -18,9 +18,9 @@ export const autoReload = (init: Partial<ReloadConfig> = {}): Plugin => {
     ...init,
   }
 
-  let watch = false
-  let httpServer: Server = undefined
-  let webSocketServer: WebSocketServer = undefined
+  let watch: boolean = false
+  let httpServer: Server | undefined = undefined
+  let webSocketServer: WebSocketServer | undefined = undefined
 
   return {
     name: 'Rollup-Plugin-Auto-Reload',
@@ -48,7 +48,7 @@ export const autoReload = (init: Partial<ReloadConfig> = {}): Plugin => {
     },
 
     async transform(code, module) {
-      if (watch && httpServer && this.getModuleInfo(module).isEntry) {
+      if (watch && httpServer && this.getModuleInfo(module)?.isEntry) {
         const address = httpServer.address() as AddressInfo
         const path = resolve(__dirname, 'client.js')
         const supplement = readFileSync(path).toString()

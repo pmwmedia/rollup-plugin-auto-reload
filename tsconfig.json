@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
-    "module": "esnext",
     "lib": [
       "dom",
       "es2021"
     ],
+    "module": "esnext",
     "noEmit": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
+    "strict": true,
     "target": "es6"
   }
 }
