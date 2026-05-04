@@ -5,6 +5,7 @@
       "es2021"
     ],
     "module": "esnext",
+    "moduleResolution": "bundler",
     "noEmit": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
