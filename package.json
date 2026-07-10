@@ -56,7 +56,7 @@
     "@stylistic/eslint-plugin": "5.10.0",
     "@types/node": "24.13.3",
     "@types/ws": "8.18.1",
-    "eslint": "10.6.0",
+    "eslint": "10.7.0",
     "eslint-plugin-simple-import-sort": "13.0.0",
     "rollup": "4.62.2",
     "rollup-plugin-dts": "6.4.1",
