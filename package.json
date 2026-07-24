@@ -42,7 +42,7 @@
     "fix": "eslint *.mjs *.ts src/**/* --fix"
   },
   "dependencies": {
-    "magic-string": "^0.30.0",
+    "magic-string": "^1.0.0",
     "ws": "^8.12.1"
   },
   "peerDependencies": {
